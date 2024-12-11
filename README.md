@@ -22,7 +22,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 jupyter notebook
 ```
 
-Download the dataset from Kaggle and put it in your directory.  
+Create a 'data' folder. Download the dataset from Kaggle and put it in your data folder.  
 Download the model from Google Drive (link below) and put it in the directory
 
 The file structure should look like 
