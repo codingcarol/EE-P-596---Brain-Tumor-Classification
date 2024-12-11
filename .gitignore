@@ -14,3 +14,6 @@ env/
 # Ignore specific file types
 *.exe
 *.zip
+
+# Ignore all files in the Data folder
+data/*
