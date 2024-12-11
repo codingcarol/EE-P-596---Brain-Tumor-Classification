@@ -5,18 +5,18 @@ The goal is to use a CNN to classify the brain tumors with > 90% accuracy.
 
 # Setup Instructions
 Install without requirements.txt
-`conda create --name env_name  
+```conda create --name env_name  
 conda activate env_name  
 conda install jupyter  
 conda install matplotlib numpy scikit-learn seaborn tqdm  
 conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia  
-jupyter notebook`
+jupyter notebook```
 
 Install with requirements.txt 
-`conda create --name env_name --file requirements.txt
+```conda create --name env_name --file requirements.txt
 conda activate env_name
 conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
-jupyter notebook`
+jupyter notebook```
 
 Download the dataset from Kaggle and put it in your directory
 The file structure should look like 
