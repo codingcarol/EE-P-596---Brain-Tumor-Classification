@@ -42,5 +42,5 @@ The expected output should be two types of results - (1) the overall testing dat
 https://drive.google.com/file/d/1rYeeD69CvXJp448U0I4UiwJp78Ilof7m/view?usp=drive_link
 
 # Acknowledgments
-Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/data
+Dataset: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/data  
 Codebase: partially based off Lab 4 homework assignment from EE P 596
