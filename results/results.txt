@@ -1,0 +1,5 @@
+Testing Accuracy: 96.26%
+Accuracy of pituitary: 98.66666666666667 %
+Accuracy of notumor: 99.50617283950616 %
+Accuracy of meningioma: 91.50326797385621 %
+Accuracy of glioma: 94.33333333333334 %
