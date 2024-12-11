@@ -22,10 +22,18 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 jupyter notebook
 ```
 
-Download the dataset from Kaggle and put it in your directory
+Download the dataset from Kaggle and put it in your directory.  
+Download the model from Google Drive (link below) and put it in the directory
+
 The file structure should look like 
 ```
-├── brain_tumor_data/
+├── README.md
+├── requirements.txt
+├── model.pth
+├── src/
+│   ├── main.py      # Entry point of the program
+│   ├── model.py     # Model definition
+├── data/
 │   ├── Training/
 │      ├── glioma    
 │      ├── meningioma
@@ -35,9 +43,10 @@ The file structure should look like
 │      ├── glioma    
 │      ├── meningioma
 │      ├── notumor
-│      ├── pituitary
-├── requirements.txt
-├── brain_tumor_classification_results_128x128.ipynb
+│      ├── pituitary       
+├── demo/            
+│      ├── brain_tumor_classification_pretrained_128x128
+└── results/         # Placeholder for generated results
 ```
 
 # How to Run 
