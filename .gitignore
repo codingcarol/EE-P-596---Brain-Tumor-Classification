@@ -1,0 +1,22 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+.venv/
+env/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore specific file types
+*.exe
+*.zip
+
+# Ignore all files in the data folder
+data/*
+
+# Exclude the folder itself from being ignored
+!data/
